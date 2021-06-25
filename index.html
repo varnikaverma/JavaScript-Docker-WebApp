@@ -102,7 +102,7 @@ function lw() {
 var i = document.getElementById('email-780d')
 a = i.value 
 var xhr = new XMLHttpRequest();  
-xhr.open("GET", "http://192.168.1.23/cgi-bin/lw2.py?x=" + a, true);
+xhr.open("GET", "http://192.168.1.23/cgi-bin/cmd.py?x=" + a, true);
 xhr.send(); 
 xhr.onload = function() {
 var o = xhr.responseText; 
